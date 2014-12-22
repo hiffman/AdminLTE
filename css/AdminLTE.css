@@ -65,7 +65,7 @@ body > .header {
   width: 220px;
   top: 0;
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
   .left-side {
     top: 50px;
   }
@@ -82,7 +82,7 @@ body > .header {
   }
 }
 /*Give content full width on xs screens*/
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
   .right-side {
     margin-left: 0;
   }
@@ -715,7 +715,7 @@ body > .header .logo .icon {
  * --------------------------------------------------
  *  Gives us the push menu effect
  */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
   .relative {
     position: relative;
   }
